@@ -1,24 +1,24 @@
 /* Header */
 
-.banner{
-  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(./resources/Banner\ Image.png);
+.banner {
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(./resources/Banner\ Image.png);
   background-position: center;
   width: 1320px;
-  height: 600px;  
+  height: 600px;
   border-radius: 16px;
   margin: 50px auto;
 }
-.content{
+.content {
   height: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
-
 }
-.hny{
-  color: #FFF;
+.hny {
+  color: #fff;
   font-family: Merriweather;
   font-size: 32px;
   font-style: normal;
@@ -27,9 +27,9 @@
   margin-bottom: 16px;
 }
 
-.celebration{ 
+.celebration {
   margin-top: 0px;
-  color: #FFF;
+  color: #fff;
   font-family: Merriweather;
   font-size: 72px;
   font-style: normal;
@@ -45,18 +45,18 @@
 }
 
 .off {
-  color: #F00;
+  color: #f00;
   text-align: center;
   font-family: Inter;
   font-size: 88px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-bottom:48px;
+  margin-bottom: 48px;
 }
 
-.holiday { 
-  color: #F00;
+.holiday {
+  color: #f00;
   text-align: center;
   font-family: Inter;
   font-size: 24px;
@@ -83,7 +83,8 @@
 }
 
 .welcome-content {
-  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vectorrr.png);
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(resources/Vectorrr.png);
   background-repeat: no-repeat;
   width: 1320px;
   height: 600px;
@@ -94,8 +95,8 @@
   justify-content: space-between;
 }
 
-.midnight{
-  color: #FFF;
+.midnight {
+  color: #fff;
   font-family: Merriweather;
   font-size: 64px;
   font-style: normal;
@@ -107,26 +108,26 @@
 }
 
 .midnight-text {
-  color: rgba(255, 255, 255, 0.80);
+  color: rgba(255, 255, 255, 0.8);
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 166.667% */
   margin-top: 24px;
-  margin-left:126px;
+  margin-left: 126px;
 }
 
-.image2024 { 
+.image2024 {
   width: 319.83px;
-  height: 464.662px; 
+  height: 464.662px;
   margin-top: 68px;
   margin-right: 138px;
   margin-bottom: 0px;
 }
 
-.join-button{
-  color: #FFF;
+.join-button {
+  color: #fff;
   background-color: transparent;
   border: none;
   text-align: center;
@@ -143,11 +144,15 @@
 .location-details {
   width: 1320px;
   height: 482px;
-  background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
   border-radius: 16px;
   margin: 120px auto;
   text-align: center;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   margin-bottom: 0px;
@@ -164,7 +169,7 @@
 }
 
 .location-info {
-  color: #F00;
+  color: #f00;
   text-align: center;
   font-family: Inter;
   font-size: 32px;
@@ -176,7 +181,7 @@
   margin-top: 100px;
 }
 
-.details{
+.details {
   color: #070211;
   font-family: Inter;
   font-size: 32px;
@@ -187,7 +192,7 @@
 }
 
 .location-info1 {
-  color: #F00;
+  color: #f00;
   text-align: center;
   font-family: Inter;
   font-size: 32px;
@@ -196,11 +201,11 @@
   line-height: 56px; /* 175% */
   text-transform: capitalize;
   margin-bottom: 0px;
-  margin-top:10px;
+  margin-top: 10px;
 }
 
 .location-info2 {
-  color: #F00;
+  color: #f00;
   text-align: center;
   font-family: Inter;
   font-size: 32px;
@@ -211,7 +216,6 @@
   margin-top: 10px;
 }
 
-
 .join-button-2 {
   margin-top: 0px;
 }
@@ -219,9 +223,9 @@
 .jb2 {
   width: 167px;
   height: 56px;
-  background-color: #F00;
+  background-color: #f00;
   border-radius: 8px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: Inter;
   font-size: 20px;
@@ -230,4 +234,61 @@
   line-height: normal;
   text-transform: uppercase;
   border: none;
+}
+
+.gifts {
+  display: flex;
+  justify-content: center;
+}
+
+.gift-contents {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  margin-top: 120px;
+}
+
+.best {
+  color: rgb(195, 0, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.awesome {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.para {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.portfolio-pictures {
+  display: flex;
+  gap: 20px;
+}
+
+.picture {
+  width: 424px;
+  height: 450px;
+  margin-bottom: 20px;
+  margin-top: 48px;
 }
