@@ -236,6 +236,74 @@
   border: none;
 }
 
+.bonus1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 120px auto;
+}
+
+.comingsoon {
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+}
+.offer {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.coming {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.comingpara {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 393px;
+}
+
+.ellipse {
+  border-radius: 463px;
+  border: 15px solid #f00;
+  padding: 35px;
+}
+
+.r2024 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.greet2024 {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 276px;
+}
+.giftbox {
+  width: 140px;
+  height: 140px;
+}
 .gifts {
   display: flex;
   justify-content: center;
@@ -431,25 +499,123 @@
   margin-top: 28px;
 }
 
-.parentbanner {
+.bannerparent {
   position: relative;
   width: 1320px;
-  height: 1000px;
+  height: 800px;
+  margin-bottom: -100px;
 }
 
 .banner1 img {
   position: absolute;
+  right: 0px;
+  bottom: 229px;
 }
 
 .banner2 img {
   position: absolute;
+  z-index: 1;
+  bottom: -10px;
+  left: 0px;
 }
 
 .banner3 img {
   position: absolute;
   bottom: 0px;
+  left: 0px;
 }
 
 .banner4 img {
   position: absolute;
+  bottom: 280px;
+  right: 290px;
+}
+
+/* Footer section */
+
+.beforebackdrop {
+  margin: 120px auto;
+  margin-bottom: 0px;
+  width: 1400px;
+}
+
+.backdrop {
+  background-color: #070211;
+  height: 700px;
+}
+
+.padding {
+  padding: 120px 140px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 98px;
+}
+
+.florida {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+  margin-bottom: 0px;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  margin: 0px;
+  margin-right: 16px;
+}
+
+.text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+  margin: 0px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hr1 {
+  border-color: rgba(202, 177, 177, 0.15);
+  width: 1320px;
+  height: 1px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.rights {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 120px;
+  margin-top: 98px;
+  margin-bottom: 120px;
+}
+
+.s2017 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
