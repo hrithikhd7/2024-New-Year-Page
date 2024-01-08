@@ -359,6 +359,10 @@
   height: 450px;
   margin-bottom: 20px;
   margin-top: 48px;
+  transition: transform 0.3s ease-in-out;
+}
+.picture:hover {
+  transform: scale(1.1);
 }
 
 .subscribe {
